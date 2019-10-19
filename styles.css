@@ -163,43 +163,49 @@ i {
 
 /* Contacts */
 
-    .contacts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 5em;
-    }
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+}
 
-    .links-container {
-        margin: 0;
-        width: 100%;
-        max-width: 900px;
-        display: inherit;
-        justify-content: space-between;
+.links-container {
+    margin: 0;
+    width: 100%;
+    max-width: 900px;
+    display: inherit;
+    justify-content: space-between;
     
-    }
+}
 
-    .social-link {
-        width: 30%;
-    }
+.contacts h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 
-    .social-link i, .social-link p {
-        display: block;
-        text-align: center;
-    }
+.social-link {
+    width: 30%;
+}
 
-    .social-link a:hover {
-        color:  rgb(0, 171, 231);
-    }
+.social-link i, .social-link p {
+    display: block;
+    text-align: center;
+}
 
-    .social-link a:hover i::before {
-        transform: rotate(360deg);
-    }
+.social-link a:hover {
+    color:  rgb(0, 171, 231);
+}
 
-    .social-link i:before {
-        display: inline-block;
-        transition: transform 0.5s;
-      }
+.social-link a:hover i::before {
+    transform: rotate(360deg);
+}
+
+.social-link i:before {
+    display: inline-block;
+    transition: transform 0.5s;
+  }
 
 /* Footer */
 
